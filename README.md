@@ -14,7 +14,7 @@ WiFi_cfg wifi;
 
 if(wifi.init()) 
 {
-  server.begin();
+  // INICIAR SERVIDOR WEB NORMAL
 }
   else 
    wifi.wifimanager();
